@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Przykładowa nazwa strony</title>
+    </head>
+
+    <body contextmenu="mainmenu">
+        <h2>Index</h2>
+        <ul>
+            <li><a href="#cytat">Cytaty w html</a></li>
+            <li><a href="#pref">Tekst preformatowany</a></li>
+            <li><a href="#lista">Listy</a></li>
+            <li><a href="#url">Odnośniki</a></li>
+            <li><a href="#tabele">Tabele</a></li>
+            <li><a href="#form">Formularze</a></li>
+            <li><a href="#struktura">Struktura strony</a></li>
+            <li><a href="#graph">Grafika w html5</a></li>
+            <li><a href="#movie">Filmy w html</a></li>
+            <li><a href="#audio">Pliki audio w html</a></li> 
+            <li><a href="#pdf">Pliki pdf w html</a></li>
+            <li><a href="#url">Zagnieżdzanie stron</a></li>
+            <li><a href="#canvas">Canvas w html</a></li>
+            <li><a href="#details">Details w html</a></li>
+            <li><a href="#menu">Menu kontekstowe</a></li>
+            <li><a href="#time">Czas w HTML</a></li>
+
+            
+        </ul>
+
+
+        <h1 id="gora">Systemy zarządzania treścią oparte na Node.js</h1>
+        <h2>Tradycyjne rozwiązania</h2>
+        <p>Olbrzymia część aplikacji i stron webowych oparta jest na jakimś <strong>systemie zarządzania treścią (CMS)</strong>. 
+            Jest to rozwiązanie niezbędne jeśli potrzebujemy jakiegoś sposobu na łatwe dodawanie oraz aktualizowanie treści strony. 
+            Tradycyjnie największą popularnością cieszyły się CMS napisane w PHP – każdy webdeveloper na pewno zna takie nazwy jak <em>WordPress</em>, 
+            <em>Joomla</em> czy <em>Drupal</em>. Są to rozwiązania bardzo dojrzałe, oferujące liczne funkcjonalności oraz rozszerzenia. Z drugiej strony mają 
+            dość poważne wady: są ciężkie, powolne i niejednokrotnie oferują wiele funkcji, z których na co dzień i tak nie skorzystamy. </p>
+        <h2>CMS JavaScript</h2>
+        <p>Praktycznie odkąd pojawił się node.js developerzy podejmowali próby napisania funkcjonalnego systemu zarządzania
+             treścią w JavaScript. Na chwile obecną do dyspozycji mamy co najmniej kilka sensownych CMS wykorzystujących 
+             zalety node i to właśnie o nich chciałbym opowiedzieć w tym artykule. Generalnie skupimy się na takich rozwiązaniach, 
+             które są dojrzałe, funkcjonalne, regularnie rozwijane i nadają się dobrze do budowania dynamicznych witryn. </p>
+            <hr>
+        <h3 id="web">Kategoria : Web Develop</h3>
+        <h1>Inne elementy tekstowe</h1>
+        <h4 id="cytat">Cytat:</h4>
+        <blockquote>
+            To jest treść cytatu.
+        </blockquote>
+        <h4 >Cytat z zagnieżdżonym znacznikiem:</h4>
+        <blockquote>
+            <em>
+                To jest treść cytatu.
+            </em>
+        </blockquote>
+        <h4 id="pref">Tekst preformatowany:</h4>
+        <pre>.zewn { 
+        background: #354f5d;
+        width: 750px;
+        height: 600px;
+    }</pre>
+        <h4>Przechodzenie do kolejnej linii w akapicie</h4><br>
+        <b>adres firmy:</b><br>
+        The Hero sp.z.o.o. Sp. K.<br>
+        ul. Kochanowskiego 32B lok. 2.41<br>
+        30-100 Tarnów
+        <hr>
+        <h4 id="lista">Lista nieuporządkowana(ul):</h4>
+
+        <ul>
+            <li>Logo</li>
+            <li>Metadane</li>
+            <li>Zakładka "O nas"</li>
+            <li>Artykuły</li>
+            <li>Informacje kontaktowe</li>
+        </ul>
+        <hr>
+        <h4>Lista numerowana(uporządkowana)(ol):</h4>
+        <h2>Jak przesłać pliki na serwer: </h2>
+        <ol>
+            <li>Otwórz klienta FTP</li>
+            <li>Wprowadź dane swojego klienta</li>
+            <li>Wybierz katalog z plikami lokalnymi</li>
+            <li>Wybierz katalog docelowy na serwerze</li>
+            <li>Zaznacz wybrane pliki lokalne i prześlij je na serwer</li>
+        </ol>
+        <hr>
+        <h4>Lista numerowana(uporządkowana) rozpoczynana od innej wartości: (ol)</h4>
+        <ol start="6">
+            <li>Otwórz klienta FTP</li>
+            <li>Wprowadź dane swojego klienta</li>
+            <li>Wybierz katalog z plikami lokalnymi</li>
+            <li>Wybierz katalog docelowy na serwerze</li>
+            <li>Zaznacz wybrane pliki lokalne i prześlij je na serwer</li>
+        </ol>
+        <hr>
+        <h4>Lista definicji:</h4>
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hipertekstowy język znaczników. Podstawowy język tworzenia stron internetowych</dd>
+            <dt>CSS</dt>
+            <dd>Język do opisywania formy prezentacji(wyglądu) strony WWW</dd>
+            <dt>JavaScript</dt>
+            <dd>Skryptowy język programowania używany zazwyczaj na stronach internegowych</dd>
+        </dl>
+        <hr>
+        <h4 id="url">Odnośniki</h4>
+        <h2>Przydatne odnośniki: </h2>
+        <a href="http://strefakursow.pl">Strefa Kursów</a><br>
+        <a href="http://google.pl">Google</a><br>
+        <hr>
+        <h4>Kotwica: </h4>
+        <a href="#gora">Góra strony</a><br>
+        <a href="#web">Web Develop</a>
+        <hr>
+        <h2 id="tabele">Tabele w html:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Lp.</th>
+                    <th>Imię</th>
+                    <th>Nazwisko</th>
+                    <th>E-Mail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Tadeusz</td>
+                    <td>Nowak</td>
+                    <td>tadeusz.nowak@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Paweł</td>
+                    <td>Ważny</td>
+                    <td>wazny.pawel@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Jan</td>
+                    <td>Kowalski</td>
+                    <td>kowalski.jan@gmail.com</td>
+                </tr>
+            </tbody>
+            <caption>Lista klientów</caption>
+        </table>
+        <hr><br><br>
+        <h2 id="form">Formularze:</h2><br><br>
+        <form action="" method="" novalidate>
+            <label for="name">Imię:</label><br>
+            <input type="text" id="name" required autofocus><br>
+
+            <label for="email">E-Mail:</label><br>
+            <input type="email" id="email" required><br>
+
+            <label for="search">Szukaj</label><br>
+            <input type="search" id="search"><br>
+
+            <label for="password">Hasło:</label><br>
+            <input type="password" id="password"><br>
+
+            <label for="age">Wiek:</label><br>
+            <input type="number" id="age" min="1" max="99" value="18" readonly><br>
+
+            <label for="birthdate">Data urodzenia</label><br>
+            <input type="date" id="birthdate">
+            
+
+            <label for="country">Kraj:</label><br>
+            <select name="" id="country" size="1">
+                <option value="poland">Polska</option>
+                <option value="uk">Wielka Brytania</option>></option>
+                <option value="germany">Niemcy</option>
+            </select><br>
+
+            <fieldset>
+                <legend>Czy jesteś naszym klientem?</legend>
+                <input type="radio" value="yes" name="customer">Tak<br>
+                <input type="radio" value="no" name="customer">Nie<br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Jakimi tematami jesteś zainteresowany?</legend>
+                <input type="checkbox" value="grafika" name="topic">Grafika<br>
+                <input type="checkbox" value="office" name="topic">Office<br>
+                <input type="checkbox" value="webdesign" name="topic">WebDesign<br>
+                <input type="checkbox" value="mobile" name="topic">Mobile<br>
+            </fieldset>
+
+            <label for="file">Prześlij plik</label>
+            <input type="file" id="file"><br>
+            <label for="filemany">Prześlij pliki</label>
+            <input type="file" id="filemany" multiple="multiple"><br>
+
+            <label for="message">Wiadomość:</label><br>
+            <textarea id="message" required></textarea><br>
+
+            <button type="submit" id="send">Wyślij wiadomość</button>
+            <button type="reset">Wyczyść</button>
+            
+        </form>
+        <a href="#gora">Góra strony</a><br>
+        <br><br><hr>
+        <h2 id="struktura">Struktura i organizowanie strony</h2>
+        <br>
+        <a href="struktury.html">Przykładowa strona</a><br><br>
+
+        <hr><br><br>
+
+        <h2 id="graph">Grafika w html5</h2>
+        <br>
+        <p>obrazek za pomocą znacznika < img ></p><br>
+        <img src="GettyImages-461246108-1-800x941.jpg"><br>
+        <p>obrazek za pomocą znacznika < img > wraz z atrybutem alt</p><br>
+        <img src="GettyImages-461246108-1-800x941.jpgasd" alt="teks widoczny po błędnym wczytaniu obrazka">
+        <p>responsywne obrazki</p><br>
+        <picture>
+            <source media="(min-width: 970px)" srcset="revit_duzy.jpg">
+            <source media="(min-width: 700px)" srcset="revit_sredni.jpg">
+                <img src="revit_maly.jpg" alt="wizualizacja domu">
+        </picture>
+        <p>Grafika SVG</p><br>
+        <img src="napoj.svg" alt="Napój" width="200px" height="200px"><br>
+        <p>SVG Pisany za pomocą kodu</p><br>
+        <svg height="140" width="140">
+            <circle r="70" cx="70" cy="70" fill="#EF4836" />
+            <circle r="50" cx="70" cy="70" fill="#8E44AD" stroke="#FFFFFF" stroke-width="3"/>
+
+        </svg>
+        <br><br><hr><br><br>
+        <h2 id="movie">Filmy w html</h2>
+
+        <video controls width="720px">
+            <source src="trailer.mp4" type="video/mp4">
+            <source src="trailer.webm" type="video/webm">
+        </video>
+        <br><br><hr><br><br>
+        <h2 id="audio">Pliki audio</h2>
+        <audio controls>
+            <source src="trailer_audio.mp3" type="audio/mpeg">
+        </audio>
+        <br><br><hr><br><br>
+        <h2 id="pdf">PDF na stronie</h2>
+        <embed src="kurs.pdf" type="application/pdf" width="900" height="700">
+        <br><br><hr><br><br>
+        <h2 id="url">Zagnieżdzanie stron na stronie</h2>
+        <iframe src="http://strefakursow.pl" width="1080px" height="600px">
+            <p>Twoja przeglądarka nie obsługuje IFRAME</p>
+        </iframe>
+        <br><br><hr><br><br>
+        <h2 id="canvas">Canvas w HTML</h2>
+        <canvas id="canv" width="400px" height="400px">
+            <p>Twoja przeglądarka nie obsługuje CANVAS</p>
+        </canvas>
+        <script>
+            var canvas = document.getElementById('canv');
+            var ctx = canvas.getContext('2d');
+            ctx.fillStyle = 'red';
+            ctx.fillRect(0,0,200,200);
+            ctx.fillStyle = 'green';
+            ctx.fillRect(10,10,180,180);
+            ctx.fillStyle = 'yellow';
+            ctx.fillRect(20,20,160,160);
+        </script>
+        <hr><br><br>
+        <h2 id="details">Details</h2>
+        <details>
+            <summary>Nielimitoway dostęp</summary>
+            <p>Oglądasz kursy gdzie chcesz i kiedy chcesz</p>
+        </details>
+        <details open>
+            <summary>Stałe aktualizacje</summary>
+            <P>Stale aktualizowane kursy</P>
+        </details>
+        <br><br><hr><br><br>
+        <h2 id="menu">Menu kontekstowe(Póki co dostępne tylko w Firefox)</h2>
+        <menu type="context" id="mainmenu">
+            <menuitem>Start</menuitem>
+            <menuitem>Edytuj</menuitem>
+            <menuitem icon="email.png">Wyślij</menuitem>
+        </menu>
+        <h2 id="time">Czas w html</h2>
+        <p>Przykładowa data w html</p>
+        <p>Opublikowano: <time datetime="2020-01-28">28 stycznia 2020</time></p>
+        <script src="details-element-polyfill.js"></script>
+    </body> 
+</html>
